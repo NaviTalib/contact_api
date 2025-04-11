@@ -14,7 +14,7 @@ router.post('/new',isAuthenticated,newContact)
 // @api des : - get all contacts
 // @api method : - GET
 // @api url : - /api/contact/all
-router.get('/',isAuthenticated ,getAllContacts);
+router.get('/' ,getAllContacts);
 
 
 // @api des : - get single contact
